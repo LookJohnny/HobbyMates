@@ -12,39 +12,30 @@ SpaCy with en_core_web_md model
 NLTK with omw-1.4 dataset
 Installation
 Clone the repository:
-
-bash
-Copy code
-git clone https://example.com/SkillMatcher.git
-cd SkillMatcher
+`git clone https://example.com/SkillMatcher.git
+cd SkillMatcher`
 Install Node.js dependencies:
 
-Copy code
-npm install
+`npm install`
 Set up the Python environment and install dependencies:
 
-bash
-Copy code
-python -m venv venv
+`python -m venv venv
 source venv/bin/activate
 pip install spacy nltk
 python -m spacy download en_core_web_md
-python -m nltk.downloader omw-1.4
+python -m nltk.downloader omw-1.4`
 Usage
 Start the Node.js server:
 
-Copy code
-node index.js
-The API is now accessible at http://localhost:3000.
+`node index.js
+The API is now accessible at http://localhost:3000.`
 
 To match skills, send a POST request to /match-skills with JSON payload containing skillRequire and skillsProvide:
 
-json
-Copy code
-{
+`{
   "skillRequire": "driving",
   "skillsProvide": ["football", "write", "body building", "game", "chess", "racing"]
-}
+}`
 Development
 The main Node.js application is located in index.js.
 Skill matching logic is implemented in the BERT.py Python script.
