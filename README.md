@@ -30,12 +30,6 @@ Start the Node.js server:
 `node index.js
 The API is now accessible at http://localhost:3000.`
 
-To match skills, send a POST request to /match-skills with JSON payload containing skillRequire and skillsProvide:
-
-`{
-  "skillRequire": "driving",
-  "skillsProvide": ["football", "write", "body building", "game", "chess", "racing"]
-}`
 Development
 The main Node.js application is located in index.js.
 Skill matching logic is implemented in the BERT.py Python script.
