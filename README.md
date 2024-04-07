@@ -1,9 +1,6 @@
 
 # HobbyMates
 
-
-HobbyMates
-
 HobbyMates is a Node.js application that integrates with a Python NLP script to match skills between users. This application is designed to help users find matches based on their provided and required skills, leveraging the power of advanced NLP techniques to understand and compare textual data.
 
 
