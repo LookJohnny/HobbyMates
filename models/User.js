@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
     age: Number,
     name: String,
     skillRequire: String
+    match: [String]
 }); 
 
 // 创建User模型，与数据库中的"users"集合对应
