@@ -36,13 +36,14 @@ def match_skill(skill_require, skills_provide):
     for skill in skills_provide:
         preprocessed_provide = preprocess_skill(skill)
         provide_doc = nlp(preprocessed_provide)
-        if require_doc.similarity(provide_doc) > 0.5:  # 设定一个阈值以确定匹配程度
-            return True
+        # if require_doc.similarity(provide_doc) > 0.5:  # 设定一个阈值以确定匹配程度
+        #     return True
 
-    return False
+    # return False
+    return require_doc.similarity(provide_doc)
 
 # 使用例子
 skill_require = "driving"
-skills_provide = ["football", "write", "body building", "game", "chess","drive"]
+skills_provide = ["football", "write", "body building", "game", "chess", " racing"]
 
-print(match_skill(skill_require, skills_provide))
+print(match_skill(skill_require, skills_provide) )
