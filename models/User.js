@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
     location: String,
     age: Number,
     name: String,
-    skillRequire: String
+    skillRequire: String,
     match: [String]
 }); 
 
