@@ -12,7 +12,7 @@ SpaCy with en_core_web_md model
 NLTK with omw-1.4 dataset
 Installation
 Clone the repository:
-`git clone https://example.com/SkillMatcher.git
+`git clone https://github.com/LookJohnny/HobbyMates.git
 cd SkillMatcher`
 Install Node.js dependencies:
 
@@ -44,9 +44,7 @@ Contributing
 Contributions to SkillMatcher are welcome. Please fork the repository and submit a pull request with your changes.
 
 License
-SkillMatcher is licensed under the MIT License.
-
-Make sure to replace https://example.com/SkillMatcher.git with the actual URL of your Git repository. Also, you can enhance the README by adding more details about your application, such as screenshots, more detailed installation and usage instructions, and a more comprehensive guide for contributing.
+HobbyMates is licensed under the MIT License.
 
 
 
