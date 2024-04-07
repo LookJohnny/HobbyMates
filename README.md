@@ -26,6 +26,7 @@ python -m spacy download en_core_web_md
 python -m nltk.downloader omw-1.4`
 
 Usage
+
 Start the Node.js server:
 
 `node index.js
