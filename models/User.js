@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
     age: Number,
     name: String,
     skillRequire: String,
+    url: String,
     match: [String]
 }); 
 
